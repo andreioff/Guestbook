@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    database:
+        image: mysql:8.0
+        environment:
+             MYSQL_USER: andrei 
+             MYSQL_ROOT_USER: andrei 
+             MYSQL_PASSWORD: main 
+             MYSQL_ROOT_PASSWORD: main 
+             MYSQL_DB: main 
+        ports: [5432]
